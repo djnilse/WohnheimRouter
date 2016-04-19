@@ -30,7 +30,7 @@ script:
   odhcpd opkg ppp ppp-mod-pppoe ppp-mod-pptp procd resolveip swconfig uboot-envtools
   ubox ubus ubusd uci uhttpd uhttpd-mod-ubus wpad-mini"
 after_success:
-- mv OpenWrt-ImageBuilder-ar71xx-generic.Linux-x86_64/bin/ar71xx/openwrt-ar71xx-generic-tl-wr841n-v9-squashfs-factory.bin $PROJECT_HOME/firmwares/openwrt-ar71xx-generic-tl-wr841n-v9-squashfs-factory-latest.bin
+- mv $HOME/openwrt/OpenWrt-ImageBuilder-ar71xx-generic.Linux-x86_64/bin/ar71xx/openwrt-ar71xx-generic-tl-wr841n-v9-squashfs-factory.bin $PROJECT_HOME/firmwares/openwrt-ar71xx-generic-tl-wr841n-v9-squashfs-factory-latest.bin
 - cd $PROJECT_HOME
 - git commit -am "Updated latest v9.x firmware [ci skip]"
 - git remote add deploy git@github.com:djnilse/WohnheimRouter.git

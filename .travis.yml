@@ -6,7 +6,7 @@ before_script:
 - git checkout master
 - git status
 - openssl aes-256-cbc -K $encrypted_70d73d384ad8_key -iv $encrypted_70d73d384ad8_iv
-  -in wohnheimrouter.enc -out wohnheimrouter -d
+  -in wohnheimrouter.enc -out ~/.ssh/wohnheimrouter -d
 - chmod 600 ~/.ssh/wohnheimrouter
 - eval `ssh-agent -s`
 - ssh-add -D

@@ -1,6 +1,6 @@
 WohnheimRouter
 =============
-[![Build Status](https://travis-ci.org/fniephaus/WohnheimRouter.svg)](https://travis-ci.org/fniephaus/WohnheimRouter)
+[![Build Status](https://travis-ci.org/djnilse/WohnheimRouter.svg)](https://travis-ci.org/fniephaus/WohnheimRouter)
 
 **HINWEIS:** *Ich beantworte keine Fragen und helfen nicht bei Problemen. Mit openWRT könnt ihr euren Router zerstören, deshalb lest die Anleitung sorgfältig und führt die nächsten Schritte nur dann aus, wenn ihr wisst, was ihr tut. Für eventuelle Schäden ist jeder selber verantwortlich.*
 
